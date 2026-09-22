@@ -1,0 +1,55 @@
+# DATA 541 - Lab 3 Question 2: GitHub Version Control Commands Log
+# Student Name: CHEN YU PAI (Asa)
+# Student GitHub: white1011pcy-dev
+# Repo URL: https://github.com/white1011pcy-dev/Data541-lab3.git
+
+================================================================================
+PART 2 - QUESTION 1: Creating and Working on a Git Branch
+================================================================================
+
+# 1. Clone your Lab 3 repository to your local machine
+git clone https://github.com/white1011pcy-dev/Data541-lab3.git
+
+# 2. Navigate into the cloned repository folder
+cd data541-lab3
+
+# 3 & 4. Create a new Git branch called 'Markdown' and checkout to it
+git checkout -b Markdown
+
+# 5. Check the status of the current repository and confirm on branch 'Markdown'
+git status
+git branch
+
+# 6. Copy lab3_q1.md and lab3_q2.md into this repo folder, then add and commit
+git add lab3_q1.md lab3_q2.md
+git commit -m "Add lab3_q1.md and lab3_q2.md to Markdown branch"
+
+# 7. Push the Markdown branch to GitHub 
+git push -u origin Markdown
+
+# 8. Checked GitHub website and confirm the 'Markdown' branch appears in the Branch dropdown
+
+
+================================================================================
+PART 2 - QUESTION 2: Merging Branches and Cleanup
+================================================================================
+
+# 1. Checkout back to the master branch
+git checkout master
+
+# 2. Merge the Markdown branch into master
+git merge Markdown
+
+# 3. Push the merge up to GitHub master branch
+git push origin master
+
+# 4. Delete the local Markdown branch
+git branch -d Markdown
+
+# 5. View git log in oneline format
+git log --oneline
+
+# 6. Add commands text file and/or screenshots to master branch, commit and push
+git add git_commands.txt
+git commit -m "Add git commands log and screenshots for Part 2"
+git push origin master
