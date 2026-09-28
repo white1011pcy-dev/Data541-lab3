@@ -32,10 +32,10 @@ Code:
 
 # Embedding a GIF in GitHub Markdown
 
-![Sample GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnpsbzFrb2d4bXo3bWh0d2luOWhqeDdrcnRqbWd0YWNpODV4aGxraCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/hVslZETnfFMuHFqLTH/200.webp "Sample GIF")
+![Sample GIF](https://media.giphy.com/media/CKxQOrGaDqC5FhYr9v/giphy.gif "Sample GIF")
 
 Code:
 
 ```
-![Sample GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnpsbzFrb2d4bXo3bWh0d2luOWhqeDdrcnRqbWd0YWNpODV4aGxraCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/hVslZETnfFMuHFqLTH/200.webp "Sample GIF")
+![Sample GIF](https://media.giphy.com/media/CKxQOrGaDqC5FhYr9v/giphy.gif "Sample GIF")
 ```
